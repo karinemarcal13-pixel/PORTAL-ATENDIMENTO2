@@ -10,6 +10,13 @@
     /* Reset */
     * { margin: 0; padding: 0; box-sizing: border-box; }
 
+<script>
+  window.addEventListener('load', function() {
+    const banner = document.querySelector('.alert, .github-banner');
+    if (banner) banner.remove();
+  });
+</script>
+
     body {
       font-family: "Segoe UI", Arial, sans-serif;
       background: #f4f7fb;
@@ -190,7 +197,7 @@
 
   <section id="contato">
     <h2>Contato</h2>
-    <p><i class="fa-solid fa-envelope"></i> Email: atendimento@prefeitura.gov.br</p>
+    <p><i class="fa-solid fa-envelope"></i> Email: atendimentomunicipal2.0@gmail.com</p>
     <p><i class="fa-solid fa-phone"></i> Telefone: (43) 3333-0000</p>
     <p><i class="fa-solid fa-location-dot"></i> Endereço: Rua Central, 123 - Centro</p>
   </section>
