@@ -9,14 +9,7 @@
   <style>
     /* Reset */
     * { margin: 0; padding: 0; box-sizing: border-box; }
-
-<script>
-  window.addEventListener('load', function() {
-    const banner = document.querySelector('.alert, .github-banner');
-    if (banner) banner.remove();
-  });
-</script>
-
+    
     body {
       font-family: "Segoe UI", Arial, sans-serif;
       background: #f4f7fb;
